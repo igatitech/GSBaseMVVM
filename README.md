@@ -3,6 +3,8 @@
 
 # GSBaseMVVM
 
+![alt text](https://github.com/igatitech/GSBaseMVVM/blob/master/Resources/MVVM.jpg)
+
 **Happy Coding! Cheers!!** 🥂 
 
 ## How to Contribute?
