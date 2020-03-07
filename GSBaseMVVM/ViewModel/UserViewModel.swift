@@ -34,10 +34,5 @@ class UserViewModel {
         let user = dataSourceArray[index]
         return user
     }
-    
-    func getCellData(index : Int) -> String {
-        let user = self.getUserAtIndex(index: index)
-        return "\(user.id ?? 0) \(user.userId ?? 0) \(user.title ?? "") \(user.body ?? "")"
-    }
 }
 

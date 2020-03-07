@@ -12,6 +12,9 @@
 		5900F7B9241348FF0061F5FF /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900F7B8241348FF0061F5FF /* StringConstant.swift */; };
 		5900F7BC2413496B0061F5FF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900F7BB2413496B0061F5FF /* UIViewExtension.swift */; };
 		5900F7BE24134A100061F5FF /* ApiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900F7BD24134A100061F5FF /* ApiConstant.swift */; };
+		5999B07924135DBD00F0A334 /* UserTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B07724135DBD00F0A334 /* UserTableCell.swift */; };
+		5999B07A24135DBD00F0A334 /* UserTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5999B07824135DBD00F0A334 /* UserTableCell.xib */; };
+		5999B07C24135DFA00F0A334 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B07B24135DFA00F0A334 /* CellIdentifier.swift */; };
 		59AACE3D24058E8F00D1CE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AACE3C24058E8F00D1CE35 /* AppDelegate.swift */; };
 		59AACE3F24058E8F00D1CE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AACE3E24058E8F00D1CE35 /* SceneDelegate.swift */; };
 		59AACE4424058E8F00D1CE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AACE4224058E8F00D1CE35 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 		5900F7B8241348FF0061F5FF /* StringConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
 		5900F7BB2413496B0061F5FF /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		5900F7BD24134A100061F5FF /* ApiConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstant.swift; sourceTree = "<group>"; };
+		5999B07724135DBD00F0A334 /* UserTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableCell.swift; sourceTree = "<group>"; };
+		5999B07824135DBD00F0A334 /* UserTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableCell.xib; sourceTree = "<group>"; };
+		5999B07B24135DFA00F0A334 /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
 		59AACE3924058E8F00D1CE35 /* GSBaseMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSBaseMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AACE3C24058E8F00D1CE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59AACE3E24058E8F00D1CE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 			children = (
 				5900F7B8241348FF0061F5FF /* StringConstant.swift */,
 				59AACE5124058EBA00D1CE35 /* Constant.swift */,
+				5999B07B24135DFA00F0A334 /* CellIdentifier.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -116,7 +123,6 @@
 			children = (
 				59AACE3C24058E8F00D1CE35 /* AppDelegate.swift */,
 				59AACE3E24058E8F00D1CE35 /* SceneDelegate.swift */,
-				5900F7B5241347580061F5FF /* UserViewController.swift */,
 				59AACE4224058E8F00D1CE35 /* Main.storyboard */,
 				59AACE5424058EBA00D1CE35 /* Model */,
 				59AACE5224058EBA00D1CE35 /* View */,
@@ -142,6 +148,9 @@
 		59AACE5224058EBA00D1CE35 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5999B07724135DBD00F0A334 /* UserTableCell.swift */,
+				5999B07824135DBD00F0A334 /* UserTableCell.xib */,
+				5900F7B5241347580061F5FF /* UserViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5999B07A24135DBD00F0A334 /* UserTableCell.xib in Resources */,
 				59AACE4924058E9000D1CE35 /* LaunchScreen.storyboard in Resources */,
 				59AACE4624058E9000D1CE35 /* Assets.xcassets in Resources */,
 				59AACE60240592F500D1CE35 /* README.md in Resources */,
@@ -292,10 +302,12 @@
 				5900F7BC2413496B0061F5FF /* UIViewExtension.swift in Sources */,
 				59AACE5E2405921600D1CE35 /* UserViewModel.swift in Sources */,
 				59AACE5A2405900E00D1CE35 /* NetworkManager.swift in Sources */,
+				5999B07924135DBD00F0A334 /* UserTableCell.swift in Sources */,
 				5900F7B9241348FF0061F5FF /* StringConstant.swift in Sources */,
 				59AACE3D24058E8F00D1CE35 /* AppDelegate.swift in Sources */,
 				59AACE3F24058E8F00D1CE35 /* SceneDelegate.swift in Sources */,
 				59AACE5724058EBA00D1CE35 /* User.swift in Sources */,
+				5999B07C24135DFA00F0A334 /* CellIdentifier.swift in Sources */,
 				59AACE5624058EBA00D1CE35 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
